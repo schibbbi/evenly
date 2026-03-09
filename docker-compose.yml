@@ -1,0 +1,28 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - evenly-data:/app/data
+    env_file:
+      - .env
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        # VITE_API_URL is baked in at build time by Vite.
+        # Change this to your GreenNAS IP/hostname for LAN access.
+        # Example: VITE_API_URL=http://192.168.1.100:8000
+        - VITE_API_URL=${VITE_API_URL:-http://localhost:8000}
+    ports:
+      - "3001:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  evenly-data:

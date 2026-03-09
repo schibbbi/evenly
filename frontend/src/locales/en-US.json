@@ -1,0 +1,420 @@
+{
+  "brand": {
+    "name": "Evenly",
+    "tagline": "Home tasks. A little every day."
+  },
+
+  "nav": {
+    "home": "Home",
+    "tasks": "Tasks",
+    "feed": "Feed",
+    "profile": "Profile",
+    "settings": "Settings",
+    "switchResident": "Switch resident",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
+  },
+
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "back": "Back",
+    "continue": "Continue",
+    "skip": "Skip",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "close": "Close",
+    "confirm": "Confirm",
+    "loading": "Loading…",
+    "dismiss": "Dismiss",
+    "all": "All",
+    "mine": "Mine",
+    "done": "Done",
+    "change": "Change",
+    "regenerate": "Regenerate",
+    "redeem": "Redeem",
+    "generate": "Generate"
+  },
+
+  "errors": {
+    "serverUnreachable": "Can't reach Evenly server. Check your connection.",
+    "accessDenied": "Access denied. Check your PIN or role.",
+    "notFound": "Not found.",
+    "invalidInput": "Invalid input.",
+    "somethingWrong": "Something went wrong.",
+    "loadFailed": "Failed to load data.",
+    "saveFailed": "Failed to save.",
+    "loadFeedFailed": "Can't load activity feed.",
+    "serverError": "Can't reach Evenly server."
+  },
+
+  "home": {
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "streak": "{n} day streak | {n} day streak | {n} day streak",
+    "streakDays": "day streak",
+    "todayPoints": "Today's points",
+    "streakSafe": "streak safe available | streak safes available",
+    "getTasks": "Get tasks",
+    "panicMode": "Panic Mode",
+    "recentActivity": "Recent activity",
+    "seeAll": "See all",
+    "emptyFeed": "No activity yet — complete your first task!",
+    "calendarAlertHigh": "Guests arriving {date} — shared areas prioritised",
+    "calendarAlertMedium": "Upcoming event {date} — focus on shared spaces"
+  },
+
+  "feed": {
+    "title": "Activity",
+    "filterAll": "All",
+    "filterMine": "Mine",
+    "filterAriaLabel": "Filter activity",
+    "emptyAll": "No activity yet.",
+    "emptyMine": "No activity from you yet.",
+    "someone": "Someone",
+    "action": {
+      "completed": "completed",
+      "skipped": "skipped",
+      "delegated": "delegated",
+      "rerolled": "rerolled tasks on"
+    },
+    "label": {
+      "completed": "Done",
+      "skipped": "Skipped",
+      "delegated": "Delegated",
+      "rerolled": "Rerolled"
+    },
+    "time": {
+      "justNow": "just now",
+      "minutesAgo": "{n} min ago",
+      "hoursAgo": "{n}h ago",
+      "daysAgo": "{n}d ago"
+    }
+  },
+
+  "profile": {
+    "title": "My Profile",
+    "totalPoints": "Total points",
+    "streak": "Streak",
+    "bestStreak": "Best streak",
+    "streakSafes": "Streak safes",
+    "vouchers": "Vouchers",
+    "vouchersCount": "{n} available",
+    "noVouchers": "No vouchers yet — earn 100 points to get one!",
+    "earnedOn": "Earned {date}",
+    "recentPoints": "Recent points",
+    "noTransactions": "No transactions yet.",
+    "preferences": "Cleaning preferences",
+    "savePreferences": "Save preferences",
+    "preferencesSaved": "Preferences saved!",
+    "changePin": "Change PIN",
+    "changePinTitle": "Change your PIN",
+    "currentPin": "Current PIN",
+    "newPin": "New PIN",
+    "newPinPlaceholder": "New 4-digit PIN",
+    "currentPinPlaceholder": "Current PIN",
+    "pinChangeFailed": "Could not change PIN.",
+    "pointReason": {
+      "task_completion": "Task completed",
+      "unpopular_bonus": "Unpopular task bonus",
+      "streak_bonus": "Streak bonus",
+      "reroll_malus": "Reroll penalty",
+      "delegation_cost": "Delegation cost"
+    }
+  },
+
+  "session": {
+    "start": {
+      "title": "Get your tasks",
+      "stepEnergy": "How are you feeling today?",
+      "stepTime": "How much time do you have?",
+      "showTasks": "Show my tasks",
+      "energy": {
+        "high": "High energy",
+        "highDesc": "Ready to tackle anything",
+        "medium": "Medium energy",
+        "mediumDesc": "Good for regular tasks",
+        "low": "Low energy",
+        "lowDesc": "Light tasks, robot-friendly"
+      },
+      "timeUnit": "min"
+    },
+    "suggestions": {
+      "title": "Your tasks",
+      "subtitle": "Pick one to start — or skip to see different options.",
+      "allDoneTitle": "All done!",
+      "allDoneSub": "No more tasks for now. Come back tomorrow!",
+      "backToHome": "Back to Home",
+      "accept": "Accept",
+      "skip": "Skip",
+      "skipAriaLabel": "Skip this task",
+      "reroll": "Show me different tasks",
+      "rerollPenalty": "–{n} points for rerolling",
+      "badge": {
+        "overdue": "Overdue",
+        "dislikedByAll": "Disliked by all",
+        "robot": "Robot"
+      },
+      "room": "General",
+      "panicMode": "Panic Mode"
+    },
+    "active": {
+      "noTask": "No active task found.",
+      "backToTasks": "Back to tasks",
+      "robotTask": "Robot task",
+      "markDone": "Mark as done",
+      "delegate": "Delegate to a housemate",
+      "pauseTimer": "Pause",
+      "startTimer": "Start timer",
+      "resetTimer": "Reset timer",
+      "delegateTitle": "Delegate task",
+      "delegateInfo": "Delegating costs you 5 points. The recipient has 3 days to complete it.",
+      "delegateFailed": "Delegation failed.",
+      "confirmDelegation": "Confirm delegation",
+      "confirmDelegationSub": "Enter your PIN to delegate this task"
+    },
+    "completion": {
+      "title": "Task complete!",
+      "subtitle": "Keep it up!",
+      "pointsEarned": "Points earned",
+      "streakSafeEarned": "Streak safe earned!",
+      "voucherEarned": "Voucher earned! Check your profile to see it.",
+      "getAnother": "Get another task",
+      "doneForToday": "Done for today",
+      "streakSafeUsed": "Streak safe used!",
+      "streakPreserved": "Streak preserved — {n} days",
+      "streakBonus": "Bonus points active",
+      "keepGoing": "Keep going!",
+      "dayStreak": "Day {n} streak!"
+    }
+  },
+
+  "panic": {
+    "title": "Panic Mode",
+    "info": "Panic mode generates a focused cleaning plan for unexpected guests or urgent situations.",
+    "stepIndicator": "{current}/2",
+    "stepTime": "How much time do you have?",
+    "stepResidents": "Who's available to help?",
+    "generatePlan": "Generate plan",
+    "generateFailed": "Could not generate panic plan.",
+    "progress": "Progress",
+    "taskCount": "{done} / {total} tasks",
+    "allDoneTitle": "All done!",
+    "allDoneSub": "Great teamwork — your home is ready.",
+    "backToHome": "Back to Home",
+    "resident": "Resident",
+    "time": {
+      "2h": "2 hours",
+      "3h": "3 hours",
+      "4h": "4 hours"
+    }
+  },
+
+  "settings": {
+    "title": "Household Settings",
+    "unlockTitle": "Household Settings",
+    "unlockSub": "Enter your PIN to access settings.",
+    "unlockBtn": "Unlock settings",
+    "pinSheetTitle": "Unlock settings",
+    "pinSheetSub": "Settings require PIN authentication",
+    "residents": "Residents",
+    "addResident": "Add resident",
+    "editResident": "Edit resident",
+    "rooms": "Rooms",
+    "addRoom": "Add room",
+    "devices": "Devices",
+    "calendar": "Calendar Integration",
+    "calendarDesc": "Google Calendar integration allows Evenly to detect upcoming events and boost relevant cleaning tasks.",
+    "syncCalendar": "Sync calendar",
+    "taskCatalog": "Task catalog",
+    "regenerateCatalog": "Regenerate catalog",
+    "regenerateInfo": "This will regenerate all tasks. Existing custom tasks are kept.",
+    "regenerateConfirm": "Regenerate the entire task catalog?",
+    "fullName": "Full name",
+    "displayName": "Display name",
+    "role": "Role",
+    "initialPin": "Initial PIN",
+    "initialPinPlaceholder": "4-digit PIN",
+    "roomName": "Room name",
+    "roomType": "Room type",
+    "addRoomBtn": "Add room",
+    "roles": {
+      "admin": "Admin",
+      "edit": "Can edit tasks",
+      "editFull": "Edit",
+      "view": "View only",
+      "viewFull": "View"
+    },
+    "roomTypes": {
+      "kitchen": "Kitchen",
+      "bathroom": "Bathroom",
+      "bedroom": "Bedroom",
+      "living_room": "Living Room",
+      "hallway": "Hallway",
+      "childrens_room": "Children's Room",
+      "garden": "Garden",
+      "other": "Other"
+    }
+  },
+
+  "wizard": {
+    "setup": {
+      "step": "{current}/{total}",
+      "welcome": {
+        "title": "Evenly",
+        "tagline": "Home tasks. A little every day.",
+        "cta": "Set up your household"
+      },
+      "household": {
+        "title": "Your household",
+        "name": "Household name",
+        "namePlaceholder": "e.g. The Smiths",
+        "timezone": "Timezone (optional)"
+      },
+      "composition": {
+        "title": "Who lives here?",
+        "sub": "This helps tailor your cleaning tasks.",
+        "children": "Children in household",
+        "cats": "Cats",
+        "dogs": "Dogs",
+        "garden": "Garden",
+        "childAgeGroups": "Age groups",
+        "baby": "Baby 0–2",
+        "toddler": "Toddler 2–6",
+        "school": "School-age 6+"
+      },
+      "appliances": {
+        "title": "Appliances & devices",
+        "sub": "We'll factor these into your daily suggestions.",
+        "robotVacuum": "Robot vacuum",
+        "robotMop": "Robot mop",
+        "dishwasher": "Dishwasher",
+        "washer": "Washing machine",
+        "dryer": "Dryer",
+        "windowCleaner": "Window cleaner",
+        "steamCleaner": "Steam cleaner",
+        "robotMower": "Robot lawn mower",
+        "irrigation": "Irrigation system"
+      },
+      "rooms": {
+        "title": "Rooms",
+        "sub": "Tap to activate the rooms in your home.",
+        "addCustom": "Add custom room",
+        "rooms": {
+          "Kitchen": "Kitchen",
+          "Living Room": "Living Room",
+          "Bathroom": "Bathroom",
+          "Bedroom": "Bedroom",
+          "Hallway": "Hallway",
+          "Children's Room": "Children's Room",
+          "Garden": "Garden"
+        }
+      },
+      "profile": {
+        "title": "Your profile",
+        "fullName": "Full name",
+        "displayName": "Display name",
+        "avatarColor": "Avatar color",
+        "setPin": "Set your PIN",
+        "confirmPin": "Confirm PIN",
+        "pinMismatch": "PINs do not match",
+        "preferences": "Cleaning preferences",
+        "preferencesSub": "Rate each category — helps prioritise your task suggestions."
+      },
+      "coresidents": {
+        "title": "Add co-residents",
+        "sub": "You can add them now or later in Settings.",
+        "residentLabel": "Resident {n}",
+        "fullName": "Full name",
+        "displayName": "Display name",
+        "role": "Role",
+        "avatarColor": "Avatar color",
+        "initialPin": "Initial PIN (4 digits)",
+        "pinPlaceholder": "e.g. 1234",
+        "addAnother": "Add another resident",
+        "addLater": "Add later"
+      },
+      "summary": {
+        "title": "Almost there!",
+        "sub": "Here's a summary of your setup.",
+        "residents": "{n} resident(s)",
+        "rooms": "{n} room(s)",
+        "appliances": "{n} appliance(s) active",
+        "generateCatalog": "Generate task catalog",
+        "catalogReady": "Task catalog generated! You're ready to go.",
+        "startApp": "Start using Evenly"
+      }
+    },
+    "firstLogin": {
+      "step": "{current}/{total}",
+      "welcome": {
+        "title": "Welcome, {name}!",
+        "sub": "Let's personalise Evenly for you — takes less than a minute.",
+        "cta": "Let's go"
+      },
+      "pin": {
+        "title": "Your PIN",
+        "sub": "Keep your initial PIN or set a new one.",
+        "setNew": "Set a new PIN",
+        "newPin": "New PIN",
+        "changeFailed": "Could not change PIN.",
+        "noPin": "Please verify your current PIN first. Try logging in again."
+      },
+      "preferences": {
+        "title": "Cleaning preferences",
+        "sub": "Rate each area — helps us pick tasks you won't dread."
+      },
+      "done": {
+        "title": "You're all set!",
+        "sub": "Preferences can be changed anytime in My Profile.",
+        "cta": "Go to Evenly"
+      }
+    },
+    "nav": {
+      "back": "Back",
+      "next": "Next",
+      "skip": "Skip"
+    }
+  },
+
+  "pin": {
+    "enterPin": "Enter your PIN",
+    "tooManyAttempts": "Too many attempts. Try again in {n}s.",
+    "incorrectPin": "Incorrect PIN.",
+    "cancel": "Cancel",
+    "deleteDigit": "Delete last digit",
+    "enterDigit": "Enter digit {n}",
+    "digitsEntered": "{n} digits entered"
+  },
+
+  "preferences": {
+    "categories": {
+      "kitchen": "Kitchen",
+      "bathroom": "Bathroom",
+      "living_room": "Living Room",
+      "bedroom": "Bedroom",
+      "floors": "Floors",
+      "windows": "Windows",
+      "laundry": "Laundry",
+      "garden": "Garden"
+    },
+    "like": "Like",
+    "neutral": "Neutral",
+    "dislike": "Dislike"
+  },
+
+  "residentSwitcher": {
+    "title": "Switch resident",
+    "cancel": "Cancel"
+  },
+
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "de": "Deutsch"
+  }
+}

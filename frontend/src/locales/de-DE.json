@@ -1,0 +1,420 @@
+{
+  "brand": {
+    "name": "Evenly",
+    "tagline": "Haushalt. Jeden Tag ein bisschen."
+  },
+
+  "nav": {
+    "home": "Start",
+    "tasks": "Aufgaben",
+    "feed": "Verlauf",
+    "profile": "Profil",
+    "settings": "Einstellungen",
+    "switchResident": "Bewohner wechseln",
+    "switchToLight": "Zu hellem Modus wechseln",
+    "switchToDark": "Zu dunklem Modus wechseln"
+  },
+
+  "common": {
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "back": "Zurück",
+    "continue": "Weiter",
+    "skip": "Überspringen",
+    "add": "Hinzufügen",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "loading": "Lädt…",
+    "dismiss": "Schließen",
+    "all": "Alle",
+    "mine": "Meine",
+    "done": "Fertig",
+    "change": "Ändern",
+    "regenerate": "Neu generieren",
+    "redeem": "Einlösen",
+    "generate": "Generieren"
+  },
+
+  "errors": {
+    "serverUnreachable": "Evenly-Server nicht erreichbar. Verbindung prüfen.",
+    "accessDenied": "Zugriff verweigert. PIN oder Rolle prüfen.",
+    "notFound": "Nicht gefunden.",
+    "invalidInput": "Ungültige Eingabe.",
+    "somethingWrong": "Etwas ist schiefgelaufen.",
+    "loadFailed": "Laden fehlgeschlagen.",
+    "saveFailed": "Speichern fehlgeschlagen.",
+    "loadFeedFailed": "Verlauf kann nicht geladen werden.",
+    "serverError": "Evenly-Server nicht erreichbar."
+  },
+
+  "home": {
+    "greeting": {
+      "morning": "Guten Morgen",
+      "afternoon": "Guten Tag",
+      "evening": "Guten Abend"
+    },
+    "streak": "{n} Tag Serie | {n} Tage Serie",
+    "streakDays": "Tage Serie",
+    "todayPoints": "Punkte heute",
+    "streakSafe": "Serien-Safe verfügbar | Serien-Safes verfügbar",
+    "getTasks": "Aufgaben holen",
+    "panicMode": "Panik-Modus",
+    "recentActivity": "Letzte Aktivität",
+    "seeAll": "Alle anzeigen",
+    "emptyFeed": "Noch keine Aktivität — erste Aufgabe erledigen!",
+    "calendarAlertHigh": "Gäste kommen {date} — gemeinsame Bereiche priorisiert",
+    "calendarAlertMedium": "Bevorstehender Termin {date} — Fokus auf gemeinsame Räume"
+  },
+
+  "feed": {
+    "title": "Verlauf",
+    "filterAll": "Alle",
+    "filterMine": "Meine",
+    "filterAriaLabel": "Verlauf filtern",
+    "emptyAll": "Noch keine Aktivität.",
+    "emptyMine": "Noch keine eigene Aktivität.",
+    "someone": "Jemand",
+    "action": {
+      "completed": "hat erledigt",
+      "skipped": "hat übersprungen",
+      "delegated": "hat delegiert",
+      "rerolled": "hat neu gewürfelt für"
+    },
+    "label": {
+      "completed": "Erledigt",
+      "skipped": "Übersprungen",
+      "delegated": "Delegiert",
+      "rerolled": "Neu gewürfelt"
+    },
+    "time": {
+      "justNow": "gerade eben",
+      "minutesAgo": "vor {n} Min.",
+      "hoursAgo": "vor {n} Std.",
+      "daysAgo": "vor {n} Tagen"
+    }
+  },
+
+  "profile": {
+    "title": "Mein Profil",
+    "totalPoints": "Gesamtpunkte",
+    "streak": "Serie",
+    "bestStreak": "Beste Serie",
+    "streakSafes": "Serien-Safes",
+    "vouchers": "Gutscheine",
+    "vouchersCount": "{n} verfügbar",
+    "noVouchers": "Noch keine Gutscheine — 100 Punkte sammeln für einen Gutschein!",
+    "earnedOn": "Verdient am {date}",
+    "recentPoints": "Letzte Punkte",
+    "noTransactions": "Noch keine Transaktionen.",
+    "preferences": "Reinigungsvorlieben",
+    "savePreferences": "Vorlieben speichern",
+    "preferencesSaved": "Vorlieben gespeichert!",
+    "changePin": "PIN ändern",
+    "changePinTitle": "PIN ändern",
+    "currentPin": "Aktueller PIN",
+    "newPin": "Neuer PIN",
+    "newPinPlaceholder": "Neuer 4-stelliger PIN",
+    "currentPinPlaceholder": "Aktueller PIN",
+    "pinChangeFailed": "PIN konnte nicht geändert werden.",
+    "pointReason": {
+      "task_completion": "Aufgabe erledigt",
+      "unpopular_bonus": "Bonus für unbeliebte Aufgabe",
+      "streak_bonus": "Serien-Bonus",
+      "reroll_malus": "Neu-würfeln-Malus",
+      "delegation_cost": "Delegierungskosten"
+    }
+  },
+
+  "session": {
+    "start": {
+      "title": "Aufgaben holen",
+      "stepEnergy": "Wie fühlst du dich heute?",
+      "stepTime": "Wie viel Zeit hast du?",
+      "showTasks": "Aufgaben anzeigen",
+      "energy": {
+        "high": "Viel Energie",
+        "highDesc": "Bereit für alles",
+        "medium": "Mittlere Energie",
+        "mediumDesc": "Gut für normale Aufgaben",
+        "low": "Wenig Energie",
+        "lowDesc": "Leichte Aufgaben, roboterfreundlich"
+      },
+      "timeUnit": "Min."
+    },
+    "suggestions": {
+      "title": "Deine Aufgaben",
+      "subtitle": "Eine auswählen — oder überspringen für andere Optionen.",
+      "allDoneTitle": "Alles erledigt!",
+      "allDoneSub": "Keine weiteren Aufgaben. Morgen weitermachen!",
+      "backToHome": "Zur Startseite",
+      "accept": "Annehmen",
+      "skip": "Überspringen",
+      "skipAriaLabel": "Diese Aufgabe überspringen",
+      "reroll": "Andere Aufgaben zeigen",
+      "rerollPenalty": "–{n} Punkte fürs Neu-würfeln",
+      "badge": {
+        "overdue": "Überfällig",
+        "dislikedByAll": "Von allen unbeliebt",
+        "robot": "Roboter"
+      },
+      "room": "Allgemein",
+      "panicMode": "Panik-Modus"
+    },
+    "active": {
+      "noTask": "Keine aktive Aufgabe gefunden.",
+      "backToTasks": "Zurück zu Aufgaben",
+      "robotTask": "Roboter-Aufgabe",
+      "markDone": "Als erledigt markieren",
+      "delegate": "An Mitbewohner delegieren",
+      "pauseTimer": "Pausieren",
+      "startTimer": "Timer starten",
+      "resetTimer": "Timer zurücksetzen",
+      "delegateTitle": "Aufgabe delegieren",
+      "delegateInfo": "Delegieren kostet 5 Punkte. Der Empfänger hat 3 Tage Zeit.",
+      "delegateFailed": "Delegation fehlgeschlagen.",
+      "confirmDelegation": "Delegation bestätigen",
+      "confirmDelegationSub": "PIN eingeben um diese Aufgabe zu delegieren"
+    },
+    "completion": {
+      "title": "Aufgabe erledigt!",
+      "subtitle": "Weiter so!",
+      "pointsEarned": "Verdiente Punkte",
+      "streakSafeEarned": "Serien-Safe verdient!",
+      "voucherEarned": "Gutschein verdient! Im Profil ansehen.",
+      "getAnother": "Nächste Aufgabe",
+      "doneForToday": "Für heute fertig",
+      "streakSafeUsed": "Serien-Safe eingesetzt!",
+      "streakPreserved": "Serie gesichert — {n} Tage",
+      "streakBonus": "Bonuspunkte aktiv",
+      "keepGoing": "Weiter so!",
+      "dayStreak": "Tag {n} in Serie!"
+    }
+  },
+
+  "panic": {
+    "title": "Panik-Modus",
+    "info": "Der Panik-Modus erstellt einen fokussierten Putzplan für unerwartete Gäste oder dringende Situationen.",
+    "stepIndicator": "{current}/2",
+    "stepTime": "Wie viel Zeit habt ihr?",
+    "stepResidents": "Wer kann helfen?",
+    "generatePlan": "Plan erstellen",
+    "generateFailed": "Panik-Plan konnte nicht erstellt werden.",
+    "progress": "Fortschritt",
+    "taskCount": "{done} / {total} Aufgaben",
+    "allDoneTitle": "Alles erledigt!",
+    "allDoneSub": "Tolle Teamarbeit — euer Zuhause ist bereit.",
+    "backToHome": "Zur Startseite",
+    "resident": "Bewohner",
+    "time": {
+      "2h": "2 Stunden",
+      "3h": "3 Stunden",
+      "4h": "4 Stunden"
+    }
+  },
+
+  "settings": {
+    "title": "Haushalt-Einstellungen",
+    "unlockTitle": "Haushalt-Einstellungen",
+    "unlockSub": "PIN eingeben für Zugang zu den Einstellungen.",
+    "unlockBtn": "Einstellungen entsperren",
+    "pinSheetTitle": "Einstellungen entsperren",
+    "pinSheetSub": "Einstellungen erfordern PIN-Authentifizierung",
+    "residents": "Bewohner",
+    "addResident": "Bewohner hinzufügen",
+    "editResident": "Bewohner bearbeiten",
+    "rooms": "Räume",
+    "addRoom": "Raum hinzufügen",
+    "devices": "Geräte",
+    "calendar": "Kalender-Integration",
+    "calendarDesc": "Die Google Kalender-Integration ermöglicht es Evenly, bevorstehende Termine zu erkennen und relevante Aufgaben zu priorisieren.",
+    "syncCalendar": "Kalender synchronisieren",
+    "taskCatalog": "Aufgaben-Katalog",
+    "regenerateCatalog": "Katalog neu generieren",
+    "regenerateInfo": "Alle Aufgaben werden neu generiert. Eigene Aufgaben bleiben erhalten.",
+    "regenerateConfirm": "Den gesamten Aufgaben-Katalog neu generieren?",
+    "fullName": "Vollständiger Name",
+    "displayName": "Anzeigename",
+    "role": "Rolle",
+    "initialPin": "Initialer PIN",
+    "initialPinPlaceholder": "4-stelliger PIN",
+    "roomName": "Raumname",
+    "roomType": "Raumtyp",
+    "addRoomBtn": "Raum hinzufügen",
+    "roles": {
+      "admin": "Admin",
+      "edit": "Kann Aufgaben bearbeiten",
+      "editFull": "Bearbeiten",
+      "view": "Nur ansehen",
+      "viewFull": "Ansehen"
+    },
+    "roomTypes": {
+      "kitchen": "Küche",
+      "bathroom": "Bad",
+      "bedroom": "Schlafzimmer",
+      "living_room": "Wohnzimmer",
+      "hallway": "Flur",
+      "childrens_room": "Kinderzimmer",
+      "garden": "Garten",
+      "other": "Sonstiges"
+    }
+  },
+
+  "wizard": {
+    "setup": {
+      "step": "{current}/{total}",
+      "welcome": {
+        "title": "Evenly",
+        "tagline": "Haushalt. Jeden Tag ein bisschen.",
+        "cta": "Haushalt einrichten"
+      },
+      "household": {
+        "title": "Euer Haushalt",
+        "name": "Name des Haushalts",
+        "namePlaceholder": "z. B. Familie Müller",
+        "timezone": "Zeitzone (optional)"
+      },
+      "composition": {
+        "title": "Wer wohnt hier?",
+        "sub": "Das hilft, die Aufgaben anzupassen.",
+        "children": "Kinder im Haushalt",
+        "cats": "Katzen",
+        "dogs": "Hunde",
+        "garden": "Garten",
+        "childAgeGroups": "Altersgruppen",
+        "baby": "Baby 0–2",
+        "toddler": "Kleinkind 2–6",
+        "school": "Schulkind 6+"
+      },
+      "appliances": {
+        "title": "Geräte & Haushaltshelfer",
+        "sub": "Wir berücksichtigen diese in den täglichen Vorschlägen.",
+        "robotVacuum": "Saugroboter",
+        "robotMop": "Wischroboter",
+        "dishwasher": "Geschirrspüler",
+        "washer": "Waschmaschine",
+        "dryer": "Trockner",
+        "windowCleaner": "Fensterputzgerät",
+        "steamCleaner": "Dampfreiniger",
+        "robotMower": "Mähroboter",
+        "irrigation": "Bewässerungsanlage"
+      },
+      "rooms": {
+        "title": "Räume",
+        "sub": "Tippe auf die Räume in deinem Zuhause.",
+        "addCustom": "Eigenen Raum hinzufügen",
+        "rooms": {
+          "Kitchen": "Küche",
+          "Living Room": "Wohnzimmer",
+          "Bathroom": "Bad",
+          "Bedroom": "Schlafzimmer",
+          "Hallway": "Flur",
+          "Children's Room": "Kinderzimmer",
+          "Garden": "Garten"
+        }
+      },
+      "profile": {
+        "title": "Dein Profil",
+        "fullName": "Vollständiger Name",
+        "displayName": "Anzeigename",
+        "avatarColor": "Avatar-Farbe",
+        "setPin": "PIN festlegen",
+        "confirmPin": "PIN bestätigen",
+        "pinMismatch": "PINs stimmen nicht überein",
+        "preferences": "Reinigungsvorlieben",
+        "preferencesSub": "Kategorien bewerten — hilft bei der Priorisierung."
+      },
+      "coresidents": {
+        "title": "Mitbewohner hinzufügen",
+        "sub": "Jetzt oder später in den Einstellungen.",
+        "residentLabel": "Bewohner {n}",
+        "fullName": "Vollständiger Name",
+        "displayName": "Anzeigename",
+        "role": "Rolle",
+        "avatarColor": "Avatar-Farbe",
+        "initialPin": "Initialer PIN (4 Stellen)",
+        "pinPlaceholder": "z. B. 1234",
+        "addAnother": "Weiteren Bewohner hinzufügen",
+        "addLater": "Später hinzufügen"
+      },
+      "summary": {
+        "title": "Fast fertig!",
+        "sub": "Übersicht der Einrichtung.",
+        "residents": "{n} Bewohner",
+        "rooms": "{n} Räume",
+        "appliances": "{n} Geräte aktiv",
+        "generateCatalog": "Aufgaben-Katalog generieren",
+        "catalogReady": "Aufgaben-Katalog erstellt! Bereit loszulegen.",
+        "startApp": "Evenly starten"
+      }
+    },
+    "firstLogin": {
+      "step": "{current}/{total}",
+      "welcome": {
+        "title": "Willkommen, {name}!",
+        "sub": "Evenly personalisieren — dauert weniger als eine Minute.",
+        "cta": "Los geht's"
+      },
+      "pin": {
+        "title": "Dein PIN",
+        "sub": "Initialen PIN behalten oder neuen festlegen.",
+        "setNew": "Neuen PIN festlegen",
+        "newPin": "Neuer PIN",
+        "changeFailed": "PIN konnte nicht geändert werden.",
+        "noPin": "Aktuellen PIN zuerst bestätigen. Erneut einloggen."
+      },
+      "preferences": {
+        "title": "Reinigungsvorlieben",
+        "sub": "Bereiche bewerten — wir wählen Aufgaben die du nicht scheust."
+      },
+      "done": {
+        "title": "Alles bereit!",
+        "sub": "Vorlieben können jederzeit in Mein Profil geändert werden.",
+        "cta": "Zu Evenly"
+      }
+    },
+    "nav": {
+      "back": "Zurück",
+      "next": "Weiter",
+      "skip": "Überspringen"
+    }
+  },
+
+  "pin": {
+    "enterPin": "PIN eingeben",
+    "tooManyAttempts": "Zu viele Versuche. Erneut versuchen in {n} Sek.",
+    "incorrectPin": "Falscher PIN.",
+    "cancel": "Abbrechen",
+    "deleteDigit": "Letzte Ziffer löschen",
+    "enterDigit": "Ziffer {n} eingeben",
+    "digitsEntered": "{n} Ziffern eingegeben"
+  },
+
+  "preferences": {
+    "categories": {
+      "kitchen": "Küche",
+      "bathroom": "Bad",
+      "living_room": "Wohnzimmer",
+      "bedroom": "Schlafzimmer",
+      "floors": "Böden",
+      "windows": "Fenster",
+      "laundry": "Wäsche",
+      "garden": "Garten"
+    },
+    "like": "Mag ich",
+    "neutral": "Neutral",
+    "dislike": "Mag ich nicht"
+  },
+
+  "residentSwitcher": {
+    "title": "Bewohner wechseln",
+    "cancel": "Abbrechen"
+  },
+
+  "language": {
+    "label": "Sprache",
+    "en": "English",
+    "de": "Deutsch"
+  }
+}
